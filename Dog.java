@@ -17,7 +17,14 @@ public class Dog {
 	public void eat(){
 		isHungry = false;
 	}
+
 	public void printSleepyStatus(){
 		System.out.println(isHungry ? "Im sleepy" : "Im NOT sleepy");
+
+	public void printName(){
+		System.out.println(name);	
+	}
+	public void printHungerStatus(){
+		System.out.println(isHungry ? "Im hungry" : "Im NOT hungry");
 	}
 }
